@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 30px;
+    max-width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(27, 66%, 92%);
+}
+
+.balance{
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.spending{
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.summary{
+    border-color: hsl(27, 66%, 92%);
+    border-style: solid;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+
+.days{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 20px;
+    height: 200px;
+    margin: 0;
+}
+
+
+.total-month{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 20px;
+}
+
+.total-month h1{
+    margin: 0;
+}
+
+.l-month{
+    margin: 0;
+}
+
+.mon{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.tue{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+
+.wed{
+    background-color: hsl(186, 34%, 60%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.thu{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.fri{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.sat{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.sun{
+    background-color: hsl(10, 79%, 65%);
+    width: 40px;
+    border-radius: 10px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 40px;
+}
+
+.bal-view{
+    display: none;
+    position: relative;
+    left: -10px;
+    background-color: black;
+    height: 20px;
+    width: 55px;
+    margin-bottom: 12px;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.mon:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.tue:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.wed:hover{
+    cursor: pointer;
+    background-color: rgba(118, 181, 188,0.5);
+
+    border-radius: 10px;
+}
+
+.thu:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.fri:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sat:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.sun:hover{
+    background-color: rgba(236, 119, 95,0.5);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.mon:hover + .bal-view{
+    display: block;
+}
+
+.tue:hover + .bal-view{
+    display: block;
+}
+
+.wed:hover + .bal-view{
+    display: block;
+}
+
+.thu:hover + .bal-view{
+    display: block;
+}
+
+.fri:hover + .bal-view{
+    display: block;
+}
+
+.sat:hover + .bal-view{
+    display: block;
+}
+
+.sun:hover + .bal-view{
+    display: block;
+}
+

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 375px) {
+   .balance{
+    width: 364px;
+    margin-left: 2px;
+    margin-right: 2px;
+   } 
+
+   .spending{
+    width: 364px;
+   }
+
+   .days{
+    gap: 10px;
+   }
+}

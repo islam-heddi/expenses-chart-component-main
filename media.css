@@ -13,3 +13,71 @@
     gap: 10px;
    }
 }
+
+@media only screen and (max-width: 352px){
+   body{
+      margin: 0px;
+   }
+   .balance{
+      font-size: 10px;
+      width: 280px;
+      margin: 10px;
+      margin-top: 50px;
+      height: 20px;
+   }
+
+   .spending
+   {
+      font-size: 10px;
+      width: 280px;
+      height: 280px;
+      margin: 10px;
+   }
+
+   .mon{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  .tue{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  
+  .wed{
+      background-color: hsl(186, 34%, 60%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  .thu{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  .fri{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  .sat{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  
+  .sun{
+      background-color: hsl(10, 79%, 65%);
+      width: 20px;
+      border-radius: 10px;
+  }
+  .item{
+   width: 20px;
+  }
+  
+}
